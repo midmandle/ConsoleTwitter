@@ -8,7 +8,8 @@ function customEvaluator(cmd, context, filename, callback) {
 	callback(null, commandProcessor.process(cmd));
 }
 
-const replServer = repl.start({
-	prompt: '>',
-	eval: customEvaluator
+repl.start({
+	prompt: '> ',
+	eval: customEvaluator,
+	ignoreUndefined: true
 });

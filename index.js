@@ -1,8 +1,8 @@
 const repl = require('repl');
 
-const CommandProcessor = require('./lib/commandProessor');
+const CommandProessor = require('./lib/commandProessor');
 
-const commandProcessor = new CommandProcessor();
+const commandProcessor = new CommandProessor();
 
 function customEvaluator(cmd, context, filename, callback) {
 	callback(null, commandProcessor.process(cmd));

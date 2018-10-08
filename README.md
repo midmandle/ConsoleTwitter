@@ -1,5 +1,6 @@
 # ConsoleTwitter
 To run the project follow the steps below:
+
     - Open a console in the root of the project.
     - Run 'npm install' from the console.
     - Run 'node index.js'.

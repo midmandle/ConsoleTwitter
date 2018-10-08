@@ -10,17 +10,21 @@ Completing the above steps will install the project and start it running inside 
 The following commands can be executed in the running program:
 
 Reading:
+
     - Running the command '<username>' (e.g. 'Alice'), will show you a chronologically ordered list of the users posts.
 
 Following:
+
     - Running the command '<username> follows <username>' (e.g. 'Alice follows Bob'), will setup the user first user to follow the second.
       The effect of this is that the first user will get an aggregated list of both their and the followed user's posts on their wall.
 
 Wall:
+
     - Running the command '<username> wall' (e.g. 'Alice wall'), will display the user's wall. The wall of a user is an aggregated list of 
       posts of both them and the users they follow in chronological order. 
 
 Posting:
+
     - Running the command '<username> -> <message_text_of_any_length>' (e.g. 'Alice -> Hello y'all! How's it going?'), will create a new post
       for the given user. If that user already exists it will store/save that post against the user's profile. If the user doesn't already exist
       then they user will be created and the post will still be stored against the new user.
